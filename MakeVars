@@ -1,0 +1,22 @@
+OS=$(shell uname -s)
+
+PRAC=busca
+CURSO=2013
+
+EXE=busca
+DYNLIB=
+DIRS=
+
+CC=cc
+LD=ld
+AR=ar 
+RANLIB=ranlib
+
+INCLUDE=
+DEFINE=
+LIBS=
+
+CFLAGS =-Wall -g $(INCLUDE) $(DEFINE)
+ARFLAGS=
+LDFLAGS=-Bdynamic
+
